@@ -1,58 +1,171 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
     <title>TwoT | Thời trang</title>
 </head>
 <body>
-    <!-- <header>
+    <header>
         <div class="container">
             <div class="row-flex">
                 <div class="header-logo">
                     <img src="logo/logo.png" alt="Không thể tải ảnh">
                 </div>
+                <div class="menu-mobile">
+                    <i class="ri-menu-line"></i>
+                </div>
+                <div class="header-logo-mobile">
+                    <img src="logo/logo - Copy.png" alt="Không thể tải ảnh">
+                </div>
                 <div class="header-nav">
                     <nav>
                         <ul>
-                            <li><a href="">SẢN PHẨM</a></li>
-                            <li><a href="">BỘ SƯU TẬP</a></li>
-                            <li><a href="">SALE OFF</a></li>
-                            <li><a href="">VỀ CHÚNG TÔI</a></li>
-                            <li><a href="">LIÊN HỆ</a></li>
+                            <li><a href="source/product.html">SẢN PHẨM</a></li>
+                            <li><a href="source/collection.html">BỘ SƯU TẬP</a></li>
+                            <li><a href="source/sale_off.html">SALE OFF</a></li>
+                            <li><a href="source/about_us.html">ABOUT US</a></li>
+                            <li><a href="source/contact.html">LIÊN HỆ</a></li>
                         </ul>
                     </nav>
                 </div>
                 <div class="header-search">
-                    <input type="text" placeholder="Tìm kiếm">
-                    <i class="ri-search-line"></i>
+                        <input class="header-search-input" type="text" placeholder="Tìm kiếm">
+                        <i class="ri-search-line"></i>
                 </div>
-                <div class="header-cart">
-                    <i class="ri-shopping-cart-2-fill" number="0">GIỎ HÀNG</i>
+                <div class="user">
+                    <i class="ri-user-line" name="user"></i>
+                </div>
+                    <div class="header-cart">
+                        <i class="ri-shopping-cart-2-fill" number="0"></i>
+                    </div>
                 </div>
             </div>
         </div>
-    </header> -->
+    </header> 
     <!-- slide -->
-     <section>
-        <div class="slider">
-            <div class="banner">
-                <img src="logo/image.png" alt="khong the mo anh">
+     <section class="slider">
+        <div class="slide-items">
+            <div class="slide">
+                <img src="logo/Active_Wear_-_In_Motion_-_Deskto.png" alt="khong the mo anh">
             </div>
-            <div class="banner">
-                <img src="logo/font-banner-thoi-trang.png" alt="khong the mo anh">
+            <div class="slide">
+                <img src="logo/Coffee_Lovers_3_-_desktop_jpg.png" alt="khong the mo anh">
             </div>
-            <div class="banner">
-                <img src="logo/banner2.png" alt="khong the mo anh">
-            </div>
+            <div class="slide">
+                <img src="logo/Polo_Pemium__jpg.png" alt="khong the mo anh">
+            </div>            
         </div>
         <div class="slide_arrow">
-            <i class="ri-skip-left-line"></i>
-            <i class="ri-skip-right-line"></i>
+            <i class="ri-arrow-left-circle-line"></i>
+            <i class="ri-arrow-right-circle-line"></i>
         </div>
     </section>
+    <!-- best seller -->
+    <section class="best-seller">
+        <div class="container">
+            <div class="row-grid">
+                <p class="heading-text">BEST SELLER</p>
+            </div>
+            <div class="row-grid row-grid-best-seller">
+                <div class="best-seller-items">
+                    <img src="logo/10f22ttoa002_blue-ao-tanktop_1.png" alt="">
+                    <p>Áo tank top xanh dương</p>
+                    <span>100% cotton</span>
+                    <div class="price">
+                        <p>99.000<sup>đ</sup></p><span>149.000<sup>đ</sup></span>
+                    </div>
+                </div> 
+                <div class="best-seller-items">    
+                    <img src="logo/10f22tss018_black_1__1.png" alt="">
+                    <p>T-shirt black</p>
+                    <span>100% cotton</span>
+                    <div class="price">
+                        <p>99.000<sup>đ</sup></p><span>149.000<sup>đ</sup></span>
+                    </div>
+                </div>    
+                <div class="best-seller-items">
+                    <img src="logo/10s23tto001_oxford_tan-ao-thun-b.png" alt="">
+                    <p>Áo tank top</p>
+                    <span>100% cotton</span>
+                    <div class="price">
+                        <p>99.000<sup>đ</sup></p><span>149.000<sup>đ</sup></span>
+                    </div>
+                </div>
+                <div class="best-seller-items">
+                    <img src="logo/ao_polo_nam__10s23pol012.png" alt="">
+                    <p>Polo zip</p>
+                    <span>100% cotton</span>
+                    <div class="price">
+                        <p>99.000<sup>đ</sup></p><span>149.000<sup>đ</sup></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- bo suu tap -->
+    <section class="collection">
+        <div class="container">
+            <div class="row-grid">
+                <p class="heading-text">NEW COLLECTION</p>
+            </div>
+            <div class="row-grid row-grid-collection">
+                <div class="collection-items">
+                    <img src="logo/10f22ttoa002_blue-ao-tanktop_1.png" alt="">
+                    <p>Áo tank top xanh dương</p>
+                    <span>100% cotton</span>
+                    <div class="price">
+                        <p>99.000<sup>đ</sup></p><span>149.000<sup>đ</sup></span>
+                    </div>
+                </div> 
+                <div class="collection-items">    
+                    <img src="logo/10f22tss018_black_1__1.png" alt="">
+                    <p>T-shirt black</p>
+                    <span>100% cotton</span>
+                    <div class="price">
+                        <p>99.000<sup>đ</sup></p><span>149.000<sup>đ</sup></span>
+                    </div>
+                </div>    
+                <div class="collection-items">
+                    <img src="logo/10s23tto001_oxford_tan-ao-thun-b.png" alt="">
+                    <p>Áo tank top</p>
+                    <span>100% cotton</span>
+                    <div class="price">
+                        <p>99.000<sup>đ</sup></p><span>149.000<sup>đ</sup></span>
+                    </div>
+                </div>
+                <div class="collection-items">
+                    <img src="logo/ao_polo_nam__10s23pol012.png" alt="">
+                    <p>Polo zip</p>
+                    <span>100% cotton</span>
+                    <div class="price">
+                        <p>99.000<sup>đ</sup></p><span>149.000<sup>đ</sup></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+     <footer>
+        <div class="container">
+            <div class="row-grid">
+                <div class="footer-items">
+                    <p>TwoT</p>
+                    <p>Cơ sở 1: 2 Võ Oanh, Phường 25, Quận Bình Thạnh, TP. Hồ Chí Minh</p>
+                    <p>Cơ sở 2: 10 Đường số 12, Khu phố 3, Phường An Khánh, TP. Thủ Đức, TP. Hồ Chí Minh</p>
+                    <p>Cơ sở 3: 70 Tô Ký, Phường Tân Chánh Hiệp, Quận 12, TP. Hồ Chí Minh</p>
+                </div>
+                <div class="footer-items">
+                    <p>Liên Kết</p>
+                    <p> <a href="https://www.facebook.com/" target="_blank" ><i class="ri-facebook-circle-fill"></i> Facebook</a></p>
+                    <p><a href="https://shopee.vn/" target="_blank" ><i class="ti ti-brand-shopee"></i> Shopee</a></p>
+                </div>
+            </div>
+        </div>
+     </footer>
     <script src="js/script.js"></script>
 </body>
 </html>
